@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.first__list,
+.second__list,
+.three__list,
+.four__list,
+.five__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text__area {
+  width: 100%;
+  height: 200px;
+}
+.wrapper {
+  margin-right: 5px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: whitesmoke;
+  background: gray;
+}
+.wrapper:hover,
+.wrapper:focus {
+  box-shadow: 2px 2px 2px red;
+  cursor: pointer;
+}
+.wrapper__dark {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: whitesmoke;
+  background: black;
+}
+.wrapper__dark-big,
+.wrapper__dark-bigCaps,
+.wrapper__dark-bigBack {
+  position: relative;
+
+  height: 40px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: whitesmoke;
+  background: black;
+}
+.wrapper__dark-bigCaps {
+  width: 60px;
+  padding: 0;
+}
+.wrapper__dark-bigBack {
+  width: 85px;
+}
+
+.wrapper__dark-space {
+  width: 400px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: whitesmoke;
+  background: black;
+}
+
+.wrapper span {
+  display: block;
+}
+.first__span {
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  z-index: 1;
+}
+.second__span,
+.span__shift,
+.span__shift-rigth,
+.span__alt,
+.span__alt-rigth,
+.span__ctrl,
+.span__ctrl-rigth,
+.span__enter,
+.span__tab,
+.span__del,
+.span__win,
+.span__backspace,
+.span__backuote,
+.span__up,
+.span__down,
+.span__left,
+.span__right {
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.span__capslock {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.social__icon {
+  fill: whitesmoke;
+  width: 12px;
+  height: 12px;
+}
+.active__span {
+  background: rebeccapurple;
+}
